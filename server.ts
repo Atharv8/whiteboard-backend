@@ -1,4 +1,3 @@
-// server.ts - COMPLETE PRODUCTION-READY VERSION
 import express from 'express';
 import { createServer } from 'http';
 import { Server, Socket } from 'socket.io';
