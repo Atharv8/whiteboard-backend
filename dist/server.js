@@ -11,7 +11,7 @@ const app = (0, express_1.default)();
 const server = (0, http_1.createServer)(app);
 const io = new socket_io_1.Server(server, {
     cors: {
-        origin: ["http://localhost:5173", "http://localhost:3000", "http://192.168.29.89:5173", "https://abc123.ngrok-free.app/"],
+        origin: ["http://localhost:5173", "http://localhost:3000", "https://whiteboard-backend-ngem.onrender.com", "https://whiteboard-frontend-cyan.vercel.app/"],
         methods: ["GET", "POST"]
     }
 });
